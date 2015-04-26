@@ -7,7 +7,7 @@
 # This code can be tested as follows (the assumption that the input matrix is invertible)
 # t <- rbind(c(2,3,-1),-11:-9,8:10)
 # x <- makeCacheMatrix(t)
-# cacheSolve(x) # first time, it just calculates it !!!check if the random input is invertible
+# cacheSolve(x) # first time, it just calculates it
 # cacheSolve(x) # second time, it caches it
 
 #' This function takes either a matrix object x or creates an empty matrix
